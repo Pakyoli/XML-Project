@@ -1,0 +1,87 @@
+/* CST3519 D730 - project - Cheng Yu Li */
+#wrapper 
+{
+    width:1000px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+#title
+{
+    background-color: white;
+}
+#company
+{
+    font-size: 75px;
+    font-family: 'Pacifico', cursive;
+}
+/* to get rid of the underline on the links except email*/
+a 
+{
+    text-decoration:none    
+}
+.email 
+{
+    text-decoration:underline;
+}
+#photo
+{
+    margin: auto;
+    margin-left: 5px;
+    display: block;
+}
+body
+{
+    background-color: #A9E2F3;
+}
+#pick
+{
+    width:300px;
+    text-align: center;
+    font-size: 18px;
+}
+#topd /* div contains tourname*/
+{
+    width: 1000px;
+}
+#tournames
+{
+    font-style: italic;
+    color: red;
+}
+#leftd /* div contains tour picture, description and other info*/
+{
+
+    width: 550px;
+    height: 550px;
+    float: left;
+    padding: 10px;
+}
+#rightd /* div contains the table of itinerary*/
+{
+    width: auto;
+    height: 550px;
+    padding: 10px;
+   
+}
+.pic
+{
+    padding: 5px;
+    float: left;
+    height: 200px;
+}
+#t /* itinerary table backgroud color*/
+{
+    background: lightgreen;
+}
+.desc 
+{
+    
+    padding: 0px;
+    font-size: 17px;
+    color:blue;
+}
+.info
+{
+    background-color: lightgray;
+}
